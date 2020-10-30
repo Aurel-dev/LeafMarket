@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-rox justify-content-between px-5 p-2">
-    <span>{{ item.title }}</span>
-     <span><strong>{{ item.price }}</strong></span>
+    <span style="width:200px;">{{ item.title }}</span>
+     <span><strong>{{ item.price }} €</strong></span>
      <button @click="removeItemFromCart" class="close">
       <span>&times;</span>
      </button>
