@@ -11,7 +11,7 @@
         <p>{{ product.description }}</p>
     </div>
     <div>
-        <span>{{ product.price }} €</span>
+        <span>{{ product.price | price }}</span>
         <button @click="addProductToCart" class="btn btn-success btn-sm float-right">Commander</button>
     </div>
   </div>
@@ -38,5 +38,8 @@ export default {
 }
 p {
     font-size: 12px;
+}
+h3 {
+    margin-top: 20px;
 }
 </style>
