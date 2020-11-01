@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand">
         <img src="../assets/logo.png" width="50" height="50" />
-        Bootic
+        LeafMarket
       </a>
       <button class="navbar-toggler">
         <span class="navbar-toggler-icon" v-trigger-collapse="'collapse'"></span>
