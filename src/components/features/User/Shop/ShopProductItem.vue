@@ -30,9 +30,10 @@ export default {
 
 <style>
 .product-container {
-    height: 400px;
+    height: 500px;
     padding: 20px;
     margin: 10px;
+    margin-bottom: 20px;
 }
 p {
     font-size: 12px;
