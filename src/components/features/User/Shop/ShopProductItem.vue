@@ -12,7 +12,7 @@
     </div>
     <div>
         <span>{{ product.price | price }}</span>
-        <button @click="addProductToCart" class="btn btn-success btn-sm float-right">Commander</button>
+        <button @click="addProductToCart" class="btn btn-success btn-sm float-right">Ajouter au panier</button>
     </div>
   </div>
 </template>
