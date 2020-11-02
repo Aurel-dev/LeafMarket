@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column p-5">
-  <img src="https://img2.freepng.fr/20180528/gf/kisspng-shopping-bags-trolleys-shopping-cart-logo-clip-a-online-shop-5b0c34bb57cc75.7415233215275265873596.jpg" height="280">
+  <img src="https://static.vecteezy.com/system/resources/previews/000/583/276/non_2x/online-basket-icon-vector.jpg" height="380">
   <h3 class="border-bottom pb-3 text-center">Mon Panier</h3>
     <template v-if="cart.length">
       <cart-product-item v-for="item in cart" :key="item.id" :item="item"></cart-product-item>
@@ -26,5 +26,7 @@ export default {
 </script>
 
 <style>
-
+img {
+  border-radius: 200px;
+}
 </style>
