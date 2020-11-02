@@ -1,5 +1,5 @@
 <template>
-    <cart-products-list :cart="cart" class="p-3 bg-light border"></cart-products-list>
+    <cart-products-list :cart="cart" class="p-3 bg-success border text-white"></cart-products-list>
 </template>
 
 <script>

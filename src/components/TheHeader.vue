@@ -1,7 +1,7 @@
 <template>
   <transition appear>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <a class="navbar-brand text-white">
         <img src="../assets/logo.png" width="50" height="50" />
         LeafMarket
       </a>
@@ -11,10 +11,10 @@
       <div id="collapse" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/shop">Boutique</router-link>
+            <router-link class="nav-link text-white" to="/shop">Boutique</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/admin">Espace Admin</router-link>
+            <router-link class="nav-link text-white" to="/admin">Espace Admin</router-link>
           </li>
         </ul>
       </div>
