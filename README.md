@@ -1,4 +1,4 @@
-Ce projet fictif est une marketplace pour produits bios & végétals.
+Ce projet fictif est une marketplace pour produits bios & végétaux.
 
 Site développé avec Vue / Vuex / DB Firebase
 
