@@ -1,24 +1,5 @@
-# boutiquevue
+Ce projet fictif est une marketplace pour produits bios & végétals.
 
-## Project setup
-```
-npm install
-```
+Site développé avec Vue / Vuex / DB Firebase
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Possibilité d'ajout au panier et ajout produit avec l'espace Admin.
